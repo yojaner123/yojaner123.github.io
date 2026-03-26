@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Punto Frio La 10 — Tu tienda de cervezas colombianas en Santa Lucía, Atlántico. Vendemos por unidad y por caja. Propietario: Julio Sanjuan." />
+    <title>Punto Frio La 10 | Cervezas Colombianas</title>
+    <link rel="stylesheet" href="stile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ===== NAV ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-icon">🍺</span>
+            <span class="brand-name">Punto Frio <span class="accent">La 10</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Cervezas</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menú">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg-overlay"></div>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tag">🍺 Santa Lucía, Atlántico</p>
+            <h1 class="hero-title">Punto Frio<br /><span class="accent">La 10</span></h1>
+            <p class="hero-subtitle">Las mejores cervezas colombianas, frías y a tu alcance. Por unidad o por caja.</p>
+            <div class="hero-cta">
+                <a href="#productos" class="btn btn-primary">Ver Cervezas</a>
+                <a href="https://wa.me/573017919042" class="btn btn-outline" target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i> Pedir Ahora
+                </a>
+            </div>
+        </div>
+        <div class="hero-badge">
+            <div class="badge-inner">
+                <span class="badge-num">100%</span>
+                <span class="badge-text">Colombiana</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES STRIP ===== -->
+    <section class="features-strip">
+        <div class="feature-item">
+            <i class="fas fa-snowflake"></i>
+            <span>Siempre Fría</span>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-box-open"></i>
+            <span>Por Unidad y Caja</span>
+        </div>
+        <div class="feature-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Calle 10 #9-04</span>
+        </div>
+        <div class="feature-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>Pedidos por WhatsApp</span>
+        </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="products" id="productos">
+        <div class="section-header">
+            <p class="section-tag">Nuestros Productos</p>
+            <h2 class="section-title">Cervezas <span class="accent">Colombianas</span></h2>
+            <p class="section-sub">Toda la variedad de marcas colombianas disponibles en nuestro punto frío.</p>
+        </div>
+        <div class="products-grid">
+
+            <div class="product-card" id="card-aguila">
+                <div class="product-badge">Popular</div>
+                <div class="product-emoji">🍺</div>
+                <div class="product-info">
+                    <h3>Águila</h3>
+                    <p>La cerveza más vendida de Colombia. Ligera, refrescante y siempre fría.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Águila" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-costeña">
+                <div class="product-badge">Regional</div>
+                <div class="product-emoji">🍻</div>
+                <div class="product-info">
+                    <h3>Costeña</h3>
+                    <p>El sabor del Caribe en cada sorbo. Ideal para el calor de la costa.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Costeña" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-poker">
+                <div class="product-badge">Clásica</div>
+                <div class="product-emoji">🍺</div>
+                <div class="product-info">
+                    <h3>Poker</h3>
+                    <p>Una de las favoritas de Colombia. Suave con un sabor auténtico inconfundible.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Poker" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-club">
+                <div class="product-emoji">🍻</div>
+                <div class="product-info">
+                    <h3>Club Colombia</h3>
+                    <p>La cerveza premium nacional. Dorada, roja y negra para los más exigentes.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Club%20Colombia" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-pilsen">
+                <div class="product-emoji">🍺</div>
+                <div class="product-info">
+                    <h3>Costeñita</h3>
+                    <p>Clásica costeña con un sabor suave y balanceado para toda ocasión.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Pilsen" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-aguila-light">
+                <div class="product-badge">Light</div>
+                <div class="product-emoji">🍻</div>
+                <div class="product-info">
+                    <h3>Águila Light</h3>
+                    <p>Misma calidad Águila con menos calorías. Perfecta y refrescante.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Águila%20Light" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-tres-cordilleras">
+                <div class="product-badge">Artesanal</div>
+                <div class="product-emoji">🍺</div>
+                <div class="product-info">
+                    <h3>Corona</h3>
+                    <p>Cerveza clara, ligera y refrescante con un sabor suave y toque cítrico.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Tres%20Cordilleras" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+            <div class="product-card" id="card-redd">
+                <div class="product-emoji">🍻</div>
+                <div class="product-info">
+                    <h3>Redd's</h3>
+                    <p>Cerveza sabor manzana, dulce y refrescante. Perfecta para compartir.</p>
+                    <div class="product-tags">
+                        <span class="tag">Unidad</span>
+                        <span class="tag">Caja x24</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20pedir%20Redd's" target="_blank"
+                    class="product-btn">Pedir</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PRICING ===== -->
+    <section class="pricing" id="precios">
+        <div class="section-header">
+            <p class="section-tag">Modalidades</p>
+            <h2 class="section-title">¿Cómo <span class="accent">comprar?</span></h2>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card" id="pricing-unit">
+                <div class="pricing-icon"><i class="fas fa-beer"></i></div>
+                <h3>Por Unidad</h3>
+                <p>Cómprate la que te provoque. Sin mínimos, sin compromiso. Solo la que quieres con el frío ideal.</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Todas las marcas disponibles</li>
+                    <li><i class="fas fa-check-circle"></i> Precio justo por unidad</li>
+                    <li><i class="fas fa-check-circle"></i> Siempre bien fría</li>
+                </ul>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20saber%20los%20precios%20por%20unidad"
+                    target="_blank" class="btn btn-primary">Consultar Precio</a>
+            </div>
+            <div class="pricing-card featured" id="pricing-box">
+                <div class="pricing-ribbon">¡Ahorra!</div>
+                <div class="pricing-icon"><i class="fas fa-box"></i></div>
+                <h3>Por Caja</h3>
+                <p>Para la rumba, el partido o la reunión familiar. Llévate la caja completa y ahorra más.</p>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Cajas de 24 unidades</li>
+                    <li><i class="fas fa-check-circle"></i> Mejor precio por unidad</li>
+                    <li><i class="fas fa-check-circle"></i> Disponible en todas las marcas</li>
+                </ul>
+                <a href="https://wa.me/573017919042?text=Hola!%20Quiero%20saber%20los%20precios%20por%20caja"
+                    target="_blank" class="btn btn-primary">Consultar Precio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <p class="section-tag">Sobre Nosotros</p>
+                <h2>Tu <span class="accent">Punto Frío</span> de Confianza</h2>
+                <p>En <strong>Punto Frio La 10</strong> llevamos el sabor y la frescura de las mejores cervezas
+                    colombianas directamente a tu mano. Somos un negocio familiar ubicado en el corazón de Santa Lucía,
+                    Atlántico.</p>
+                <p>Nuestro propietario <strong>Julio Sanjuan</strong> garantiza que siempre encontrarás tus marcas
+                    favoritas bien frías y a los mejores precios del municipio.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-num">18+</span>
+                        <span class="stat-label">Marcas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Colombianas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">❄️</span>
+                        <span class="stat-label">Siempre Frías</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-card-float" id="about-owner">
+                    <i class="fas fa-user-tie"></i>
+                    <div>
+                        <strong>Julio Sanjuan</strong>
+                        <span>Propietario</span>
+                    </div>
+                </div>
+                <div class="about-card-float" id="about-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Calle 10 #9-04</strong>
+                        <span>Santa Lucía, Atlántico</span>
+                    </div>
+                </div>
+                <div class="about-big-icon">🍺</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contacto">
+        <div class="section-header">
+            <p class="section-tag">Encuéntranos</p>
+            <h2 class="section-title">Visítanos o <span class="accent">Escríbenos</span></h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card" id="contact-address">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Dirección</h4>
+                <p>Calle 10 #9-04<br />Santa Lucía, Atlántico<br />Colombia</p>
+            </div>
+            <div class="contact-card" id="contact-owner">
+                <i class="fas fa-user"></i>
+                <h4>Propietario</h4>
+                <p>Julio Sanjuan</p>
+            </div>
+            <div class="contact-card" id="contact-whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <h4>WhatsApp</h4>
+                <p><a href="https://wa.me/573017919042" target="_blank" rel="noopener">301 791 9042</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="brand-icon">🍺</span>
+                <span>Punto Frio <span class="accent">La 10</span></span>
+            </div>
+            <p>© 2026 Punto Frio La 10 — Julio Sanjuan · Santa Lucía, Atlántico</p>
+            <p class="footer-legal">Calle 10 #9-04 · El alcohol en exceso es perjudicial para la salud.</p>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+    <a href="https://wa.me/573017919042?text=Hola!%20Estoy%20interesado%20en%20sus%20cervezas%20🍺" class="whatsapp-fab"
+        id="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¡Escríbenos!</span>
+    </a>
+
+    <script>
+        // Navbar scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close nav on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.product-card, .pricing-card, .contact-card, .about-card-float, .feature-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+
+</html>
